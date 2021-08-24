@@ -1,0 +1,111 @@
+body{
+
+    background-color: #EDEDED;
+    font-family: 'Lato', sans-serif;
+    color: #47525E;
+
+}
+:link, :visited{
+
+    color:#47525E;
+
+}
+h1{
+
+    font-size: 50px;
+    font-weight: bold;
+
+}
+h2{
+
+    font-size: 40px;
+
+}
+h3{
+
+    font-size: 26px;
+
+}
+footer{
+
+    float: left;
+    opacity: 60%;
+
+}
+p{
+
+    font-size: 20px;
+
+}
+header{
+
+    background-color: #FFB751;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: #47525E;
+
+}
+img[src="imgednaldo/minecra.jpg"]{
+
+    border-radius: 50%;
+
+}
+.cabecalhoTop{
+
+    display: flex;
+
+}
+.cabecalhoDown{
+
+    padding: 0px 300px 5px 280px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.noticias{
+
+    float: left;
+
+}
+.ednaldoZap{
+
+    float: right;
+    border-left: 1px solid gray;
+    height: 1000px;
+    padding: 20px 30px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+.sobreEdnaldo{
+
+    padding-left: 15px;
+
+}
+ul{
+
+    list-style: "- ";
+
+}
+.membrosPrinc{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.maiquieviniccius{
+
+    padding-top: 10px;
+    padding-right: 50px;
+
+}
+#logoTwitter{
+
+    align-self: center;
+    padding-top: 60px;
+
+}
