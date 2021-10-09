@@ -1,0 +1,167 @@
+*{
+
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDEDED;
+    font-family: 'Lato', sans-serif;
+
+}
+h2{
+
+    font-weight: bold;
+
+}
+a:link, a:visited{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+
+}
+.centro{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    justify-content: space-evenly;
+
+}
+.logo{
+
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.logo--div{
+
+    width: 50%;
+
+}
+.menu{
+
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: auto;
+
+}
+.inicio{
+
+    display: flex;
+    width: 10000px;
+
+}
+.sobre{
+
+    width: 60%;
+    height: auto;
+    margin-top: 7%;
+    text-align: center;
+
+}
+.ednaldo--img{
+
+    width: 40%;
+
+}
+#um{
+
+    width: 96%;
+    height: auto;
+    background-color: #3D56B2;
+    border-radius: 50%;
+
+}
+#cadastro--button{
+
+    margin-top: 3%;
+    width: 150px;
+    height: 50px;
+    background-color: #FF7B54;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5%;
+    cursor: pointer;
+
+}
+.h2--sobre{
+
+    font-size: 36px;
+
+}
+.p--sobre{
+
+    font-size: 18px;
+
+}
+hr{
+
+    margin-top: 30px;
+    width: 90%;
+    height: 2px;
+    color: darkgray;
+    background-color: darkgray;
+
+}
+.news{
+
+    width: 100%;
+    text-align: center;
+
+}
+.redes{
+
+    margin-top: 30px;
+    display: flex;
+    padding-left: 43%;
+    padding-right: 43%;
+    justify-content: space-evenly;
+
+}
+.insta{
+
+    width: 50px;
+    height: auto;
+
+}
+.tuinter{
+
+    padding-left: 20px;
+    margin-top: -5px;
+    width: 86px;
+    height: auto;
+
+}
+.ytb{
+
+    margin-top: -13px;
+    width: 75px;
+    height: auto;
+
+}
+.membrosPrinc{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.maiquieviniccius{
+
+    padding-top: 10px;
+    padding-right: 50px;
+
+}
