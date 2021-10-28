@@ -1,0 +1,68 @@
+*{
+
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url();
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+body{
+
+    background-image: url(https://cdn.discordapp.com/attachments/637768058538295307/899743971721498674/unknown.png);
+
+}
+.texto--cad{
+
+    text-align: center;
+
+}
+main{
+
+    background-color: #EDEDED;
+    margin: 0 auto;
+    width: 80%;
+    height: 10000px;
+
+}
+h1{
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+h2{
+
+    font-size: 24px;
+    color: gray;
+
+}
+form{
+
+    margin-top: 50px;
+    margin-left: 25%;
+
+}
+label{
+
+    font-size: 18px;
+
+}
+div{
+
+    margin-top: 15px;
+
+}
+input[type="textbox"], input[type="password"]{
+
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+    width: 400px;
+    height: 20px;
+
+}

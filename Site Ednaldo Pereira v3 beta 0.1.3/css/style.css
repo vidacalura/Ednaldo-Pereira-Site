@@ -1,0 +1,381 @@
+*{
+
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EDEDED;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+
+}
+h2{
+
+    font-weight: bold;
+
+}
+a:link, a:visited{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+
+}
+a:hover{
+
+    color: black;
+
+}
+.centro{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    justify-content: space-evenly;
+
+}
+.logo{
+
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+
+}
+.logo--div{
+
+    width: 50%;
+
+}
+.menu{
+
+    padding-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    height: auto;
+
+}
+.inicio{
+
+    display: flex;
+    width: 10000px;
+
+}
+.sobre{
+
+    width: 60%;
+    height: auto;
+    margin-top: 7%;
+    text-align: center;
+
+}
+.ednaldo--img{
+
+    width: 40%;
+
+}
+#um{
+
+    width: 96%;
+    height: auto;
+    background-color: #3D56B2;
+    border-radius: 50%;
+
+}
+#cadastro--button{
+
+    margin-top: 3%;
+    width: 150px;
+    height: 50px;
+    background-color: #FF7B54;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: ease-in-out 0.1s all;
+
+}
+.h2--sobre{
+
+    font-size: 36px;
+
+}
+.p--sobre{
+
+    font-size: 18px;
+
+}
+hr{
+
+    margin-top: 30px;
+    width: 90%;
+    height: 2px;
+    color: darkgray;
+    background-color: darkgray;
+
+}
+.news{
+
+    width: 100%;
+    text-align: center;
+
+}
+.redes{
+
+    margin-top: 30px;
+    display: flex;
+    padding-left: 43%;
+    padding-right: 43%;
+    justify-content: space-evenly;
+
+}
+.insta{
+
+    width: 50px;
+    height: auto;
+
+}
+.tuinter{
+
+    padding-left: 20px;
+    margin-top: -5px;
+    width: 86px;
+    height: auto;
+
+}
+.ytb{
+
+    margin-top: -13px;
+    width: 75px;
+    height: auto;
+
+}
+.membrosPrinc{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.maiquieviniccius{
+
+    padding-top: 10px;
+    padding-right: 50px;
+
+}
+.sobreEdnaldo{
+
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 50%;
+    font-size: 16px;
+
+}
+.EdnaldoEsticadin--div{
+
+    width: 45%;
+
+}
+.ednaldo--esticadin{
+
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.h2--sobreEdnaldo{
+
+    margin-left: 50px;
+
+}
+.p--sobreEdnaldo{
+
+    margin-left: 30px
+
+}
+.NegoNeyReportagem{
+
+    width: 40%;
+    margin-top: 40px;
+
+}
+.EdnaldovsNegoNey{
+
+    text-align: center;
+
+}
+.negoney--img{
+
+    margin-top: 50px;
+    width: 70%;
+
+}
+.NegoNeyReportagem--img{
+
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+
+}
+.sobreNegoNey{
+
+    width: 60%;
+    margin-top: 50px;
+    padding-right: 20px;
+
+}
+#cadastro--button:hover{
+
+    width: 175px;
+    height: 60px;
+    font-size: 17px;
+
+}
+
+/* Ednaldozap */
+.sem--barra{
+
+    overflow-y: hidden;
+
+}
+.contatos{
+
+    width: 25%;
+    height: 10000px;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+
+}    
+.user{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-right: solid 2px #E3E3E2;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 10%;
+
+}
+img[src="imgs/usericon.png"]{
+
+    background-color: white;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+
+}
+img[src="imgs/config.png"]{
+
+    padding-top: 5px;
+    width: 15px;
+    height: auto;
+
+}
+.main--EdnaldoZap{
+
+    margin-top: 20px;
+    border-top: solid 1px black;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contatos--user{
+
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    flex-wrap: nowrap;
+
+}
+.contatoEdnaldo{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.button--ednaldozap{
+
+    cursor: pointer;
+
+}
+img[src="imgs/ednaldozap.png"]{
+
+    width: 40px;
+    height: auto;
+}
+.img--contatoEdnaldo{
+
+    background-color: white;
+    width: 16%;
+
+}
+.infoEdnaldo{
+
+    background-color: white;
+    width: 60%;
+
+}
+.hora{
+
+    text-align: center;
+    width: 19.2%;
+    background-color: white;
+
+}
+.ultima--msg{
+
+    background-color: white;
+
+}
+.hora--ultima--msg{
+
+    background-color: white;
+
+}
+.h2--ednaldozap{
+
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    display: inline;
+    background-color: white;
+
+}
+.h3--ednaldozap{
+
+    font-size: 13px;
+    display: inline;
+
+}
+.p--ednaldozap{
+
+    font-size: 10px;
+    display: inline;
+    background-color: white;
+
+}
+
+.conversa{
+
+    width: 75%;
+    height: 1000px;
+    background-color: #E4DCD5;
+
+}
