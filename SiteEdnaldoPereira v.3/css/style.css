@@ -242,11 +242,10 @@ hr{
 }
 #cadastro--button:hover{
 
-    width: 160px;
-    height: 52px;
-    font-size: 16px;
+    transform: scale(1.1);
     background-color: #fc8b69;
     padding-bottom: 1px;
+
 
 }
 .noFlex{
